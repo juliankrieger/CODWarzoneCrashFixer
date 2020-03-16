@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Sprawl\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Sprawl\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_CodWarzoneCrashFixer.726340678.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Sprawl\RiderProjects\CodWarzoneCrashFixer" t="IncludeFlat">
+      <e p="CodWarzoneCrashFixer" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CodWarzoneCrashFixer.csproj" t="IncludeRecursive" />
+        <e p="Form1.cs" t="Include" />
+        <e p="Form1.Designer.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Release" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="win10-x64" t="Include">
+                <e p="CodWarzoneCrashFixer.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Resources" t="Include">
+          <e p="penguin.ico" t="Include" />
+          <e p="penguin.png" t="Include" />
+        </e>
+      </e>
+      <e p="CodWarzoneCrashFixer.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
