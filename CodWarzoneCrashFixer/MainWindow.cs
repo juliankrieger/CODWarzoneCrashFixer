@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
 
@@ -11,6 +12,7 @@ namespace CodWarzoneCrashFixer
         {
             InitializeComponent();
             Init();
+            this.Icon = new Icon(Icon.ExtractAssociatedIcon( Application.ExecutablePath ), 128, 128);
         }
 
         private void Init() {
