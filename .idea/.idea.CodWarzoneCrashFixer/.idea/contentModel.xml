@@ -7,8 +7,12 @@
       <e p="CodWarzoneCrashFixer" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="CodWarzoneCrashFixer.csproj" t="IncludeRecursive" />
-        <e p="Form1.cs" t="Include" />
-        <e p="Form1.Designer.cs" t="Include" />
+        <e p="Config.cs" t="Include" />
+        <e p="DialogCenteringService.cs" t="Include" />
+        <e p="MainLogic.cs" t="Include" />
+        <e p="MainWindow.cs" t="Include" />
+        <e p="MainWindow.Designer.cs" t="Include" />
+        <e p="MainWindow.resx" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Release" t="Include">
             <e p="netcoreapp3.0" t="Include">

@@ -4,79 +4,59 @@ using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Text.Json.Serialization;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Newtonsoft.Json;
+
 
 namespace CodWarzoneCrashFixer
 {
-    static class Program
-    {
-        
-        private static Process getCODHandle()
-        {
-            foreach (Process clsProcess in Process.GetProcesses())
-            {
-
-                string processName = clsProcess.ProcessName;
-                
-                if (processName.Contains("ModernWarfare"))
-                {
-                    return clsProcess;
-                }
-            }
-
-            return null;
-        }
-
-        private static void mainLoop()
-        {
-            Process codProcess = getCODHandle();
-
-            if (codProcess == null)
-            {
-                return;
-            }
-
-            if (codProcess.MainModule?.FileName != null)
-            {
-                string fullPath = codProcess.MainModule.FileName;
-                string dirname = Path.GetDirectoryName(fullPath);
-                string fullPathWithoutEnding = Path.GetFileNameWithoutExtension(fullPath);
-                string ext = Path.GetExtension(fullPath);
-                
-                string newPath = Path.Combine(dirname, fullPathWithoutEnding + ".exe1");
-
-                if (ext != ".exe1")
-                {
-                    System.IO.File.Move(fullPath, newPath, true);
     
-                }
-                
-                codProcess.WaitForExit();
+    
+    static class Program {
 
-                string oldPath = Path.Combine(dirname, fullPathWithoutEnding + ".exe");
-                
-                System.IO.File.Move(newPath, oldPath, true);
-            }
-        }
+        public static NotifyIcon trayIcon;
 
-        private static void init()
+        private static MainWindow mainWindow;
+
+        public static void notifyIcon_MouseDoubleClick(object sender, EventArgs e) {
+
+            MouseEventArgs mouseEventArgs = (MouseEventArgs) e;
+
+           
+            mainWindow.Show();
+            mainWindow.WindowState = FormWindowState.Normal;
+            Program.trayIcon.Visible = false;
+                
+            
+        }  
+        
+        private static void Init()
         {
-            NotifyIcon trayIcon = new NotifyIcon();
-            trayIcon.Text = "TestApp";
+            trayIcon = new NotifyIcon();
+            trayIcon.Text = "Modern Warfare Crash Fixer";
             trayIcon.Icon = new Icon(Icon.ExtractAssociatedIcon( Application.ExecutablePath ), 40, 40);
 
             ContextMenu trayMenu = new ContextMenu();
-
-
-
-            trayMenu.MenuItems.Add("Exit", onExit);
+            
+            trayMenu.MenuItems.Add("Exit", OnExit);
             trayIcon.ContextMenu = trayMenu;
-            trayIcon.Visible = true;
+            
+            trayIcon.DoubleClick += new EventHandler(notifyIcon_MouseDoubleClick);
+
+            Config config = Config.GetConfig();
+          
+            MainLogic.runThread.Start();
+            if (config.Enabled) {
+                MainLogic.threadState.Set();
+            }
         }
         
-        private static void onExit(object sender, EventArgs e)
+        
+        
+        private static void OnExit(object sender, EventArgs e)
         {
             Application.Exit();
             Process.GetCurrentProcess().Kill(); //Failsafe
@@ -88,20 +68,17 @@ namespace CodWarzoneCrashFixer
         [STAThread]
         static void Main()
         {
+            
+          
            
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            init();
-            
-            Thread thread = new Thread(() =>
-            {
-                mainLoop();
-                Thread.Sleep(1000 * 60); // sleep for one minute
-            });
-            thread.Start();
+            Init();
 
-            Application.Run();
+            mainWindow = new MainWindow();
+            
+            Application.Run(mainWindow);
             
         }
     }

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fe94ded-1105-40ca-bf76-6688c7fc8cdd" name="Default Changelist" comment="" />
+    <list default="true" id="4fe94ded-1105-40ca-bf76-6688c7fc8cdd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CodWarzoneCrashFixer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CodWarzoneCrashFixer/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CodWarzoneCrashFixer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CodWarzoneCrashFixer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodWarzoneCrashFixer/CodWarzoneCrashFixer.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CodWarzoneCrashFixer/CodWarzoneCrashFixer.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodWarzoneCrashFixer/Form1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodWarzoneCrashFixer/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CodWarzoneCrashFixer/Program.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,16 +17,30 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/CodWarzoneCrashFixer/Form1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CodWarzoneCrashFixer/Config.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/754695B3-F0D4-4DDC-82E4-8C0D026F7DC8/1F/Directory.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CodWarzoneCrashFixer/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CodWarzoneCrashFixer/DialogCenteringService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CodWarzoneCrashFixer/MainLogic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CodWarzoneCrashFixer/MainWindow.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CodWarzoneCrashFixer/MainWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/754695B3-F0D4-4DDC-82E4-8C0D026F7DC8/23/File.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/CodWarzoneCrashFixer/Resources/sdads.Designer.cs" />
-        <option value="$PROJECT_DIR$/CodWarzoneCrashFixer/Program.cs" />
         <option value="$PROJECT_DIR$/CodWarzoneCrashFixer/CodWarzoneCrashFixer.csproj" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/CodWarzoneCrashFixer/Form1.cs" />
+        <option value="$PROJECT_DIR$/CodWarzoneCrashFixer/Form1.Designer.cs" />
+        <option value="$PROJECT_DIR$/CodWarzoneCrashFixer/MainWindow.Designer.cs" />
+        <option value="$PROJECT_DIR$/CodWarzoneCrashFixer/MessageBoxEx.cs" />
+        <option value="$PROJECT_DIR$/CodWarzoneCrashFixer/DialogCenteringService.cs" />
+        <option value="$PROJECT_DIR$/CodWarzoneCrashFixer/Config.cs" />
+        <option value="$PROJECT_DIR$/CodWarzoneCrashFixer/MainLogic.cs" />
+        <option value="$PROJECT_DIR$/CodWarzoneCrashFixer/MainWindow.cs" />
+        <option value="$PROJECT_DIR$/CodWarzoneCrashFixer/Program.cs" />
       </list>
     </option>
   </component>
@@ -41,6 +61,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.4" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys_rider" />
   </component>
   <component name="RunManager">
     <configuration name="CodWarzoneCrashFixer" type="DotNetProject" factoryName=".NET Project">
@@ -77,39 +98,125 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584361704879">
+    <state x="552" y="179" key="#Notifications" timestamp="1584563762053">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584361704879" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1584362033962">
+    <state x="552" y="179" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1584563762053" />
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584563491311">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584362033962" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1584362033962">
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584563491311" />
+    <state width="938" height="283" key="GridCell.Tab.0.bottom" timestamp="1584566343305">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584362033962" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1584362033962">
+    <state width="938" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584566343305" />
+    <state width="938" height="283" key="GridCell.Tab.0.center" timestamp="1584566343305">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584362033962" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1584362033962">
+    <state width="938" height="283" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584566343305" />
+    <state width="938" height="283" key="GridCell.Tab.0.left" timestamp="1584566343305">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584362033962" />
+    <state width="938" height="283" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584566343305" />
+    <state width="938" height="283" key="GridCell.Tab.0.right" timestamp="1584566343305">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="283" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584566343305" />
+    <state width="1412" height="348" key="GridCell.Tab.1.bottom" timestamp="1584565361788">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1412" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584565361788" />
+    <state width="1412" height="348" key="GridCell.Tab.1.center" timestamp="1584565361788">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1412" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584565361788" />
+    <state width="1412" height="348" key="GridCell.Tab.1.left" timestamp="1584565361788">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1412" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584565361788" />
+    <state width="1412" height="348" key="GridCell.Tab.1.right" timestamp="1584565361788">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1412" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584565361788" />
+    <state width="1412" height="348" key="GridCell.Tab.2.bottom" timestamp="1584565361788">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1412" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584565361788" />
+    <state width="1412" height="348" key="GridCell.Tab.2.center" timestamp="1584565361788">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1412" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584565361788" />
+    <state width="1412" height="348" key="GridCell.Tab.2.left" timestamp="1584565361788">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1412" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584565361788" />
+    <state width="1412" height="348" key="GridCell.Tab.2.right" timestamp="1584565361788">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1412" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584565361788" />
+    <state width="1412" height="348" key="GridCell.Tab.3.bottom" timestamp="1584565361788">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1412" height="348" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584565361788" />
+    <state width="1412" height="348" key="GridCell.Tab.3.center" timestamp="1584565361788">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1412" height="348" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584565361788" />
+    <state width="1412" height="348" key="GridCell.Tab.3.left" timestamp="1584565361788">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1412" height="348" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584565361788" />
+    <state width="1412" height="348" key="GridCell.Tab.3.right" timestamp="1584565361788">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1412" height="348" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584565361788" />
+    <state width="1412" height="348" key="GridCell.Tab.4.bottom" timestamp="1584565361788">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1412" height="348" key="GridCell.Tab.4.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584565361788" />
+    <state width="1412" height="348" key="GridCell.Tab.4.center" timestamp="1584565361788">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1412" height="348" key="GridCell.Tab.4.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584565361788" />
+    <state width="1412" height="348" key="GridCell.Tab.4.left" timestamp="1584565361788">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1412" height="348" key="GridCell.Tab.4.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584565361788" />
+    <state width="1412" height="348" key="GridCell.Tab.4.right" timestamp="1584565361788">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1412" height="348" key="GridCell.Tab.4.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584565361788" />
+    <state x="765" y="211" key="RiderGenerateDialog" timestamp="1584553221884">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="211" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584553221884" />
+    <state x="461" y="163" width="1262" height="713" key="SettingsEditor" timestamp="1584553677418">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="163" width="1262" height="713" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584553677418" />
+    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584566215981">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584566215981" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1584558353168">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584558353168" />
   </component>
 </project>
